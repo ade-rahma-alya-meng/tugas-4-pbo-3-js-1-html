@@ -9,7 +9,7 @@ form.addEventListener("submit", function (e) {
       // Tampilkan hasil
       hasil.style.display = "block";
       hasil.innerHTML = `
-        <h2>DATA PRIBADI</h2>
+        <h2>DEAR J</h2>
         <p>Seorang laki-laki ${kekurangan}, ia bernama ${cowo}. Hidupnya selalu dikucilkan dan dibedakan oleh
         semua orang karena kekurangannya. Tentang ia yang telah ditinggalkan oleh ibunya sejak lahir. Lelaki
         dengan segala kesempurnaan hati nya, ia yang tak pernah mengeluh atas segala kesulitan yang menimpa hidupnya.
@@ -23,4 +23,5 @@ form.addEventListener("submit", function (e) {
         dalam hatinya, perempuan yang tak pernah mengenal rasa takut, perempuan yang selalu menjadi tameng utama untuk
         seorang ${cowo}, si lelaki ${kekurangan}.</p>
     `;
+
     });
